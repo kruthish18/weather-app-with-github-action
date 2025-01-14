@@ -43,7 +43,7 @@ function displayWeather(data){
     tempDivInfo.innerHTML = '';
 
     if (data.cod=='404'){
-        weatherIconDiv.innerHTML = '<p>${data.message}</p>';
+        weatherInfoDiv.innerHTML = '<p>${data.message}</p>';
     } else{
         const cityName= data.name;
         const temperature = Math.round(data.main.temp - 273.15);
