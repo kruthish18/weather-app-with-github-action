@@ -1,1 +1,1 @@
-Weather App using Opneweather API
+Weather App using Openweather API
